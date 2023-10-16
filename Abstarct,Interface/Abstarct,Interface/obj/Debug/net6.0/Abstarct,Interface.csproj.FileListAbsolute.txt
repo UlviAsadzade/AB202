@@ -1,0 +1,15 @@
+C:\Users\lenovo\OneDrive\Masaüstü\AB202\Abstarct,Interface\Abstarct,Interface\bin\Debug\net6.0\Abstarct,Interface.exe
+C:\Users\lenovo\OneDrive\Masaüstü\AB202\Abstarct,Interface\Abstarct,Interface\bin\Debug\net6.0\Abstarct,Interface.deps.json
+C:\Users\lenovo\OneDrive\Masaüstü\AB202\Abstarct,Interface\Abstarct,Interface\bin\Debug\net6.0\Abstarct,Interface.runtimeconfig.json
+C:\Users\lenovo\OneDrive\Masaüstü\AB202\Abstarct,Interface\Abstarct,Interface\bin\Debug\net6.0\Abstarct,Interface.dll
+C:\Users\lenovo\OneDrive\Masaüstü\AB202\Abstarct,Interface\Abstarct,Interface\bin\Debug\net6.0\Abstarct,Interface.pdb
+C:\Users\lenovo\OneDrive\Masaüstü\AB202\Abstarct,Interface\Abstarct,Interface\obj\Debug\net6.0\Abstarct,Interface.csproj.AssemblyReference.cache
+C:\Users\lenovo\OneDrive\Masaüstü\AB202\Abstarct,Interface\Abstarct,Interface\obj\Debug\net6.0\Abstarct,Interface.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\lenovo\OneDrive\Masaüstü\AB202\Abstarct,Interface\Abstarct,Interface\obj\Debug\net6.0\Abstarct,Interface.AssemblyInfoInputs.cache
+C:\Users\lenovo\OneDrive\Masaüstü\AB202\Abstarct,Interface\Abstarct,Interface\obj\Debug\net6.0\Abstarct,Interface.AssemblyInfo.cs
+C:\Users\lenovo\OneDrive\Masaüstü\AB202\Abstarct,Interface\Abstarct,Interface\obj\Debug\net6.0\Abstarct,Interface.csproj.CoreCompileInputs.cache
+C:\Users\lenovo\OneDrive\Masaüstü\AB202\Abstarct,Interface\Abstarct,Interface\obj\Debug\net6.0\Abstarct,Interface.dll
+C:\Users\lenovo\OneDrive\Masaüstü\AB202\Abstarct,Interface\Abstarct,Interface\obj\Debug\net6.0\refint\Abstarct,Interface.dll
+C:\Users\lenovo\OneDrive\Masaüstü\AB202\Abstarct,Interface\Abstarct,Interface\obj\Debug\net6.0\Abstarct,Interface.pdb
+C:\Users\lenovo\OneDrive\Masaüstü\AB202\Abstarct,Interface\Abstarct,Interface\obj\Debug\net6.0\Abstarct,Interface.genruntimeconfig.cache
+C:\Users\lenovo\OneDrive\Masaüstü\AB202\Abstarct,Interface\Abstarct,Interface\obj\Debug\net6.0\ref\Abstarct,Interface.dll
