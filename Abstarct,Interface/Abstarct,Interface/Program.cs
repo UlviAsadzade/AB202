@@ -7,23 +7,28 @@ namespace Abstarct_Interface
     {
         static void Main(string[] args)
         {
-            Student stu1 = new Student("Shems", "Rehimzade");
-            Student stu2 = new Student("Azer", "Gasimzade");
-            Student stu3 = new Student("Amin", "Pashayev");
+            #region Homework
+            //Student stu1 = new Student("Shems", "Rehimzade");
+            //Student stu2 = new Student("Azer", "Gasimzade");
+            //Student stu3 = new Student("Amin", "Pashayev");
 
-            Group group = new Group();
+            //Group group = new Group();
 
-            group.Add(stu1);
-            group.Add(stu2);
-            group.Add(stu3);
+            //group.Add(stu1);
+            //group.Add(stu2);
+            //group.Add(stu3);
 
-            group.Show();
+            //group.Show();
 
-            Console.WriteLine("-------------------------");
+            //Console.WriteLine("-------------------------");
 
-            group.Remove(3);
+            //group.Remove(3);
 
-            group.Show();
+            //group.Show(); 
+
+            #endregion
+
+            
 
         }
     }

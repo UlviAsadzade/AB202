@@ -4,11 +4,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Abstarct_Interface.Interfaces
+namespace Enum_Indexer.Utilities
 {
-    internal interface IPerson
+    internal enum Category
     {
-        void Show();
-        
+        Programming,
+        Marketing,
+        HelpDesk,
+        Design
     }
 }

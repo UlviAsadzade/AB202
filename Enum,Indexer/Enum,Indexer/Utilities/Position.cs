@@ -4,11 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Abstarct_Interface.Interfaces
+namespace Enum_Indexer.Utilities
 {
-    internal interface IPerson
+     internal enum Position
     {
-        void Show();
-        
+        Teacher,
+        Student
     }
 }

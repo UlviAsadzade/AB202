@@ -9,6 +9,9 @@ namespace Abstarct_Interface.Models
     internal class Student
     {
         static int Count;
+        static int CodeCount = 100;
+
+        public string  Code { get; set; }
 
         public Student(string name, string surname)
         {
@@ -16,6 +19,8 @@ namespace Abstarct_Interface.Models
             Surname = surname;
             Count++;
             Id = Count;
+            CodeCount++;
+            Code = Name.Substring(0, 2).ToUpper() + CodeCount;
         }
 
         public int Id { get; set; }

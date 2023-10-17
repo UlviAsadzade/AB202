@@ -1,0 +1,15 @@
+C:\Users\lenovo\OneDrive\Masaüstü\AB202\Enum,Indexer\Enum,Indexer\bin\Debug\net6.0\Enum,Indexer.exe
+C:\Users\lenovo\OneDrive\Masaüstü\AB202\Enum,Indexer\Enum,Indexer\bin\Debug\net6.0\Enum,Indexer.deps.json
+C:\Users\lenovo\OneDrive\Masaüstü\AB202\Enum,Indexer\Enum,Indexer\bin\Debug\net6.0\Enum,Indexer.runtimeconfig.json
+C:\Users\lenovo\OneDrive\Masaüstü\AB202\Enum,Indexer\Enum,Indexer\bin\Debug\net6.0\Enum,Indexer.dll
+C:\Users\lenovo\OneDrive\Masaüstü\AB202\Enum,Indexer\Enum,Indexer\bin\Debug\net6.0\Enum,Indexer.pdb
+C:\Users\lenovo\OneDrive\Masaüstü\AB202\Enum,Indexer\Enum,Indexer\obj\Debug\net6.0\Enum,Indexer.csproj.AssemblyReference.cache
+C:\Users\lenovo\OneDrive\Masaüstü\AB202\Enum,Indexer\Enum,Indexer\obj\Debug\net6.0\Enum,Indexer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\lenovo\OneDrive\Masaüstü\AB202\Enum,Indexer\Enum,Indexer\obj\Debug\net6.0\Enum,Indexer.AssemblyInfoInputs.cache
+C:\Users\lenovo\OneDrive\Masaüstü\AB202\Enum,Indexer\Enum,Indexer\obj\Debug\net6.0\Enum,Indexer.AssemblyInfo.cs
+C:\Users\lenovo\OneDrive\Masaüstü\AB202\Enum,Indexer\Enum,Indexer\obj\Debug\net6.0\Enum,Indexer.csproj.CoreCompileInputs.cache
+C:\Users\lenovo\OneDrive\Masaüstü\AB202\Enum,Indexer\Enum,Indexer\obj\Debug\net6.0\Enum,Indexer.dll
+C:\Users\lenovo\OneDrive\Masaüstü\AB202\Enum,Indexer\Enum,Indexer\obj\Debug\net6.0\refint\Enum,Indexer.dll
+C:\Users\lenovo\OneDrive\Masaüstü\AB202\Enum,Indexer\Enum,Indexer\obj\Debug\net6.0\Enum,Indexer.pdb
+C:\Users\lenovo\OneDrive\Masaüstü\AB202\Enum,Indexer\Enum,Indexer\obj\Debug\net6.0\Enum,Indexer.genruntimeconfig.cache
+C:\Users\lenovo\OneDrive\Masaüstü\AB202\Enum,Indexer\Enum,Indexer\obj\Debug\net6.0\ref\Enum,Indexer.dll
