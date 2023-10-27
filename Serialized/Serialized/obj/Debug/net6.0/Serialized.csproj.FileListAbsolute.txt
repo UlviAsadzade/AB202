@@ -1,0 +1,17 @@
+C:\Users\lenovo\OneDrive\Masaüstü\AB202\Serialized\Serialized\bin\Debug\net6.0\Serialized.exe
+C:\Users\lenovo\OneDrive\Masaüstü\AB202\Serialized\Serialized\bin\Debug\net6.0\Serialized.deps.json
+C:\Users\lenovo\OneDrive\Masaüstü\AB202\Serialized\Serialized\bin\Debug\net6.0\Serialized.runtimeconfig.json
+C:\Users\lenovo\OneDrive\Masaüstü\AB202\Serialized\Serialized\bin\Debug\net6.0\Serialized.dll
+C:\Users\lenovo\OneDrive\Masaüstü\AB202\Serialized\Serialized\bin\Debug\net6.0\Serialized.pdb
+C:\Users\lenovo\OneDrive\Masaüstü\AB202\Serialized\Serialized\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\lenovo\OneDrive\Masaüstü\AB202\Serialized\Serialized\obj\Debug\net6.0\Serialized.csproj.AssemblyReference.cache
+C:\Users\lenovo\OneDrive\Masaüstü\AB202\Serialized\Serialized\obj\Debug\net6.0\Serialized.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\lenovo\OneDrive\Masaüstü\AB202\Serialized\Serialized\obj\Debug\net6.0\Serialized.AssemblyInfoInputs.cache
+C:\Users\lenovo\OneDrive\Masaüstü\AB202\Serialized\Serialized\obj\Debug\net6.0\Serialized.AssemblyInfo.cs
+C:\Users\lenovo\OneDrive\Masaüstü\AB202\Serialized\Serialized\obj\Debug\net6.0\Serialized.csproj.CoreCompileInputs.cache
+C:\Users\lenovo\OneDrive\Masaüstü\AB202\Serialized\Serialized\obj\Debug\net6.0\Serialized.csproj.CopyComplete
+C:\Users\lenovo\OneDrive\Masaüstü\AB202\Serialized\Serialized\obj\Debug\net6.0\Serialized.dll
+C:\Users\lenovo\OneDrive\Masaüstü\AB202\Serialized\Serialized\obj\Debug\net6.0\refint\Serialized.dll
+C:\Users\lenovo\OneDrive\Masaüstü\AB202\Serialized\Serialized\obj\Debug\net6.0\Serialized.pdb
+C:\Users\lenovo\OneDrive\Masaüstü\AB202\Serialized\Serialized\obj\Debug\net6.0\Serialized.genruntimeconfig.cache
+C:\Users\lenovo\OneDrive\Masaüstü\AB202\Serialized\Serialized\obj\Debug\net6.0\ref\Serialized.dll
