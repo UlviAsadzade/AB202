@@ -1,0 +1,22 @@
+nav{
+    background-color: #2E3E51;
+}
+
+nav a{
+    text-decoration: none;
+    color: white;
+}
+
+ul li a{
+    font-size: 20px;
+    font-weight: 600;
+    transition: .5s all;
+}
+
+ul li a:hover{
+    color: teal;
+}
+
+
+
+
