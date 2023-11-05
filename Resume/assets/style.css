@@ -1,0 +1,61 @@
+.main{
+    border: 10px solid orange;
+    width: 60%;
+    margin: 0 auto;
+}
+
+.content{
+    padding: 10px 100px;
+}
+
+.header-name{
+    font-size: 24px;
+    font-weight: 700;
+    margin: 0;
+}
+
+.header-desc{
+    text-align: end;
+    font-style: italic;
+    font-size: 14px;
+}
+.line{
+    height: 3px;
+    background-color: black;
+}
+.details{
+    font-size: 14px;
+    padding-top: 10px;
+}
+
+.details ul{
+    list-style: none;
+}
+
+.details-left{
+    font-style: italic;
+}
+
+.education-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.education-left p{
+    font-size: 20px;
+    font-weight: 600;
+    margin: 0;
+}
+
+.education-right{
+    background-color: black;
+    color: white;
+    padding: 2px 1px 2px 14px;
+    font-size: 14px;
+}
+
+.education-desc p{
+    padding-left: 20px;
+}
+
