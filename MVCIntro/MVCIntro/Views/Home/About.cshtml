@@ -1,0 +1,12 @@
+﻿@using MVCIntro.Models;
+
+
+@*@if(ViewBag.Stu is not null)
+{
+	<h1>Name : @ViewBag.Stu.Name, Surname: @ViewBag.Stu.Surname</h1>
+}*@
+
+<h1>
+	@(ViewBag.Stu is null ? "null deyer var" : ViewBag.Stu.Name)
+</h1>
+

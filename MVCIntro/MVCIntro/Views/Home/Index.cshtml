@@ -1,0 +1,9 @@
+﻿@using MVCIntro.Models;
+<ul>
+
+	@foreach (Student item in ViewBag.Students)
+	{
+		<li>Name: @item.Name, Surname: @item.Surname</li>
+	}
+
+</ul>
