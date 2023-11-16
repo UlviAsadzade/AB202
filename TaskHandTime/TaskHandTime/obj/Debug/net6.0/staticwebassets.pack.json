@@ -1,0 +1,197 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\lenovo\\OneDrive\\Masaüstü\\AB202\\TaskHandTime\\TaskHandTime\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\TaskHandTime.bundle.scp.css",
+      "PackagePath": "staticwebassets\\TaskHandTime.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\lenovo\\OneDrive\\Masaüstü\\AB202\\TaskHandTime\\TaskHandTime\\wwwroot\\assets\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\assets\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\lenovo\\OneDrive\\Masaüstü\\AB202\\TaskHandTime\\TaskHandTime\\wwwroot\\assets\\css\\font-awesome.min.css",
+      "PackagePath": "staticwebassets\\assets\\css\\font-awesome.min.css"
+    },
+    {
+      "Id": "C:\\Users\\lenovo\\OneDrive\\Masaüstü\\AB202\\TaskHandTime\\TaskHandTime\\wwwroot\\assets\\css\\responsive.css",
+      "PackagePath": "staticwebassets\\assets\\css\\responsive.css"
+    },
+    {
+      "Id": "C:\\Users\\lenovo\\OneDrive\\Masaüstü\\AB202\\TaskHandTime\\TaskHandTime\\wwwroot\\assets\\css\\style.css",
+      "PackagePath": "staticwebassets\\assets\\css\\style.css"
+    },
+    {
+      "Id": "C:\\Users\\lenovo\\OneDrive\\Masaüstü\\AB202\\TaskHandTime\\TaskHandTime\\wwwroot\\assets\\css\\style.css.map",
+      "PackagePath": "staticwebassets\\assets\\css\\style.css.map"
+    },
+    {
+      "Id": "C:\\Users\\lenovo\\OneDrive\\Masaüstü\\AB202\\TaskHandTime\\TaskHandTime\\wwwroot\\assets\\css\\style.scss",
+      "PackagePath": "staticwebassets\\assets\\css\\style.scss"
+    },
+    {
+      "Id": "C:\\Users\\lenovo\\OneDrive\\Masaüstü\\AB202\\TaskHandTime\\TaskHandTime\\wwwroot\\assets\\fonts\\fontawesome-webfont.ttf",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fontawesome-webfont.ttf"
+    },
+    {
+      "Id": "C:\\Users\\lenovo\\OneDrive\\Masaüstü\\AB202\\TaskHandTime\\TaskHandTime\\wwwroot\\assets\\fonts\\fontawesome-webfont.woff",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fontawesome-webfont.woff"
+    },
+    {
+      "Id": "C:\\Users\\lenovo\\OneDrive\\Masaüstü\\AB202\\TaskHandTime\\TaskHandTime\\wwwroot\\assets\\fonts\\fontawesome-webfont.woff2",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fontawesome-webfont.woff2"
+    },
+    {
+      "Id": "C:\\Users\\lenovo\\OneDrive\\Masaüstü\\AB202\\TaskHandTime\\TaskHandTime\\wwwroot\\assets\\images\\a-1.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\a-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lenovo\\OneDrive\\Masaüstü\\AB202\\TaskHandTime\\TaskHandTime\\wwwroot\\assets\\images\\a-2.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\a-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lenovo\\OneDrive\\Masaüstü\\AB202\\TaskHandTime\\TaskHandTime\\wwwroot\\assets\\images\\about-img.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\about-img.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lenovo\\OneDrive\\Masaüstü\\AB202\\TaskHandTime\\TaskHandTime\\wwwroot\\assets\\images\\client.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\client.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lenovo\\OneDrive\\Masaüstü\\AB202\\TaskHandTime\\TaskHandTime\\wwwroot\\assets\\images\\envelope-white.png",
+      "PackagePath": "staticwebassets\\assets\\images\\envelope-white.png"
+    },
+    {
+      "Id": "C:\\Users\\lenovo\\OneDrive\\Masaüstü\\AB202\\TaskHandTime\\TaskHandTime\\wwwroot\\assets\\images\\fb.png",
+      "PackagePath": "staticwebassets\\assets\\images\\fb.png"
+    },
+    {
+      "Id": "C:\\Users\\lenovo\\OneDrive\\Masaüstü\\AB202\\TaskHandTime\\TaskHandTime\\wwwroot\\assets\\images\\feature-1.png",
+      "PackagePath": "staticwebassets\\assets\\images\\feature-1.png"
+    },
+    {
+      "Id": "C:\\Users\\lenovo\\OneDrive\\Masaüstü\\AB202\\TaskHandTime\\TaskHandTime\\wwwroot\\assets\\images\\feature-2.png",
+      "PackagePath": "staticwebassets\\assets\\images\\feature-2.png"
+    },
+    {
+      "Id": "C:\\Users\\lenovo\\OneDrive\\Masaüstü\\AB202\\TaskHandTime\\TaskHandTime\\wwwroot\\assets\\images\\feature-3.png",
+      "PackagePath": "staticwebassets\\assets\\images\\feature-3.png"
+    },
+    {
+      "Id": "C:\\Users\\lenovo\\OneDrive\\Masaüstü\\AB202\\TaskHandTime\\TaskHandTime\\wwwroot\\assets\\images\\feature-4.png",
+      "PackagePath": "staticwebassets\\assets\\images\\feature-4.png"
+    },
+    {
+      "Id": "C:\\Users\\lenovo\\OneDrive\\Masaüstü\\AB202\\TaskHandTime\\TaskHandTime\\wwwroot\\assets\\images\\fevicon\\fevicon.png",
+      "PackagePath": "staticwebassets\\assets\\images\\fevicon\\fevicon.png"
+    },
+    {
+      "Id": "C:\\Users\\lenovo\\OneDrive\\Masaüstü\\AB202\\TaskHandTime\\TaskHandTime\\wwwroot\\assets\\images\\linkedin.png",
+      "PackagePath": "staticwebassets\\assets\\images\\linkedin.png"
+    },
+    {
+      "Id": "C:\\Users\\lenovo\\OneDrive\\Masaüstü\\AB202\\TaskHandTime\\TaskHandTime\\wwwroot\\assets\\images\\location-white.png",
+      "PackagePath": "staticwebassets\\assets\\images\\location-white.png"
+    },
+    {
+      "Id": "C:\\Users\\lenovo\\OneDrive\\Masaüstü\\AB202\\TaskHandTime\\TaskHandTime\\wwwroot\\assets\\images\\location.png",
+      "PackagePath": "staticwebassets\\assets\\images\\location.png"
+    },
+    {
+      "Id": "C:\\Users\\lenovo\\OneDrive\\Masaüstü\\AB202\\TaskHandTime\\TaskHandTime\\wwwroot\\assets\\images\\mail.png",
+      "PackagePath": "staticwebassets\\assets\\images\\mail.png"
+    },
+    {
+      "Id": "C:\\Users\\lenovo\\OneDrive\\Masaüstü\\AB202\\TaskHandTime\\TaskHandTime\\wwwroot\\assets\\images\\phone.png",
+      "PackagePath": "staticwebassets\\assets\\images\\phone.png"
+    },
+    {
+      "Id": "C:\\Users\\lenovo\\OneDrive\\Masaüstü\\AB202\\TaskHandTime\\TaskHandTime\\wwwroot\\assets\\images\\said.png",
+      "PackagePath": "staticwebassets\\assets\\images\\said.png"
+    },
+    {
+      "Id": "C:\\Users\\lenovo\\OneDrive\\Masaüstü\\AB202\\TaskHandTime\\TaskHandTime\\wwwroot\\assets\\images\\slider-bg.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\slider-bg.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lenovo\\OneDrive\\Masaüstü\\AB202\\TaskHandTime\\TaskHandTime\\wwwroot\\assets\\images\\telephone-white.png",
+      "PackagePath": "staticwebassets\\assets\\images\\telephone-white.png"
+    },
+    {
+      "Id": "C:\\Users\\lenovo\\OneDrive\\Masaüstü\\AB202\\TaskHandTime\\TaskHandTime\\wwwroot\\assets\\images\\twitter.png",
+      "PackagePath": "staticwebassets\\assets\\images\\twitter.png"
+    },
+    {
+      "Id": "C:\\Users\\lenovo\\OneDrive\\Masaüstü\\AB202\\TaskHandTime\\TaskHandTime\\wwwroot\\assets\\images\\user.png",
+      "PackagePath": "staticwebassets\\assets\\images\\user.png"
+    },
+    {
+      "Id": "C:\\Users\\lenovo\\OneDrive\\Masaüstü\\AB202\\TaskHandTime\\TaskHandTime\\wwwroot\\assets\\images\\w1.png",
+      "PackagePath": "staticwebassets\\assets\\images\\w1.png"
+    },
+    {
+      "Id": "C:\\Users\\lenovo\\OneDrive\\Masaüstü\\AB202\\TaskHandTime\\TaskHandTime\\wwwroot\\assets\\images\\w2.png",
+      "PackagePath": "staticwebassets\\assets\\images\\w2.png"
+    },
+    {
+      "Id": "C:\\Users\\lenovo\\OneDrive\\Masaüstü\\AB202\\TaskHandTime\\TaskHandTime\\wwwroot\\assets\\images\\w3.png",
+      "PackagePath": "staticwebassets\\assets\\images\\w3.png"
+    },
+    {
+      "Id": "C:\\Users\\lenovo\\OneDrive\\Masaüstü\\AB202\\TaskHandTime\\TaskHandTime\\wwwroot\\assets\\images\\w4.png",
+      "PackagePath": "staticwebassets\\assets\\images\\w4.png"
+    },
+    {
+      "Id": "C:\\Users\\lenovo\\OneDrive\\Masaüstü\\AB202\\TaskHandTime\\TaskHandTime\\wwwroot\\assets\\images\\w5.png",
+      "PackagePath": "staticwebassets\\assets\\images\\w5.png"
+    },
+    {
+      "Id": "C:\\Users\\lenovo\\OneDrive\\Masaüstü\\AB202\\TaskHandTime\\TaskHandTime\\wwwroot\\assets\\images\\w6.png",
+      "PackagePath": "staticwebassets\\assets\\images\\w6.png"
+    },
+    {
+      "Id": "C:\\Users\\lenovo\\OneDrive\\Masaüstü\\AB202\\TaskHandTime\\TaskHandTime\\wwwroot\\assets\\images\\w7.png",
+      "PackagePath": "staticwebassets\\assets\\images\\w7.png"
+    },
+    {
+      "Id": "C:\\Users\\lenovo\\OneDrive\\Masaüstü\\AB202\\TaskHandTime\\TaskHandTime\\wwwroot\\assets\\images\\w8.png",
+      "PackagePath": "staticwebassets\\assets\\images\\w8.png"
+    },
+    {
+      "Id": "C:\\Users\\lenovo\\OneDrive\\Masaüstü\\AB202\\TaskHandTime\\TaskHandTime\\wwwroot\\assets\\images\\w9.png",
+      "PackagePath": "staticwebassets\\assets\\images\\w9.png"
+    },
+    {
+      "Id": "C:\\Users\\lenovo\\OneDrive\\Masaüstü\\AB202\\TaskHandTime\\TaskHandTime\\wwwroot\\assets\\images\\youtube.png",
+      "PackagePath": "staticwebassets\\assets\\images\\youtube.png"
+    },
+    {
+      "Id": "C:\\Users\\lenovo\\OneDrive\\Masaüstü\\AB202\\TaskHandTime\\TaskHandTime\\wwwroot\\assets\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\assets\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\lenovo\\OneDrive\\Masaüstü\\AB202\\TaskHandTime\\TaskHandTime\\wwwroot\\assets\\js\\custom.js",
+      "PackagePath": "staticwebassets\\assets\\js\\custom.js"
+    },
+    {
+      "Id": "C:\\Users\\lenovo\\OneDrive\\Masaüstü\\AB202\\TaskHandTime\\TaskHandTime\\wwwroot\\assets\\js\\jquery-3.4.1.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\jquery-3.4.1.min.js"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.TaskHandTime.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.TaskHandTime.props",
+      "PackagePath": "build\\TaskHandTime.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.TaskHandTime.props",
+      "PackagePath": "buildMultiTargeting\\TaskHandTime.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.TaskHandTime.props",
+      "PackagePath": "buildTransitive\\TaskHandTime.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

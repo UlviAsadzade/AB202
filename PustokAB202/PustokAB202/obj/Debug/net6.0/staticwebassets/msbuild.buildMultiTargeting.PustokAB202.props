@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\PustokAB202.props" />
+</Project>
