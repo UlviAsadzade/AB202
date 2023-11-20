@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Tb/cxcae03SjN7dxitvLkvjxS91mmDvsok5sQued378=",
+  "Hash": "9hIeoBy4HKDQu0uypOlOZkyW7q/Tjk1WRKn/2d9mkwg=",
   "Source": "PustokAB202",
   "BasePath": "_content/PustokAB202",
   "Mode": "Default",
@@ -1732,6 +1732,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\assets\\image\\products\\product-details-5.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\lenovo\\OneDrive\\Masaüstü\\AB202\\PustokAB202\\PustokAB202\\wwwroot\\assets\\image\\products\\test.png",
+      "SourceId": "PustokAB202",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\lenovo\\OneDrive\\Masaüstü\\AB202\\PustokAB202\\PustokAB202\\wwwroot\\",
+      "BasePath": "_content/PustokAB202",
+      "RelativePath": "assets/image/products/test.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\image\\products\\test.png"
     },
     {
       "Identity": "C:\\Users\\lenovo\\OneDrive\\Masaüstü\\AB202\\PustokAB202\\PustokAB202\\wwwroot\\assets\\js\\ajax-mail.js",

@@ -36,21 +36,7 @@ namespace PustokAB202.Controllers
             return View(homeVM);
         }
 
-        public IActionResult Details(int id)
-        {
-            Book book = _context.Books
-                 .Include(x => x.Author)
-                .Include(x => x.Genre)
-                .Include(x => x.BookImages).
-            FirstOrDefault(x => x.Id == id);
-
-            if(book == null)
-            {
-                return NotFound();
-            }
-
-            return View(book);
-        }
+      
 
        
     }

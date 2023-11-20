@@ -401,6 +401,10 @@
       "PackagePath": "staticwebassets\\assets\\image\\products\\product-details-5.jpg"
     },
     {
+      "Id": "C:\\Users\\lenovo\\OneDrive\\Masaüstü\\AB202\\PustokAB202\\PustokAB202\\wwwroot\\assets\\image\\products\\test.png",
+      "PackagePath": "staticwebassets\\assets\\image\\products\\test.png"
+    },
+    {
       "Id": "C:\\Users\\lenovo\\OneDrive\\Masaüstü\\AB202\\PustokAB202\\PustokAB202\\wwwroot\\assets\\js\\ajax-mail.js",
       "PackagePath": "staticwebassets\\assets\\js\\ajax-mail.js"
     },
