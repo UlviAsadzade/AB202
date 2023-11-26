@@ -761,6 +761,10 @@
       "PackagePath": "staticwebassets\\manage\\vendors\\mdi\\fonts\\materialdesignicons-webfont.woff2"
     },
     {
+      "Id": "C:\\Users\\lenovo\\OneDrive\\Masaüstü\\AB202\\PustokAB202\\PustokAB202\\wwwroot\\uploads\\slider\\7a64358e-0f6c-4e96-8bec-7453864dc42c_home-4-slider-2.jpg",
+      "PackagePath": "staticwebassets\\uploads\\slider\\7a64358e-0f6c-4e96-8bec-7453864dc42c_home-4-slider-2.jpg"
+    },
+    {
       "Id": "C:\\Users\\lenovo\\OneDrive\\Masaüstü\\AB202\\PustokAB202\\PustokAB202\\wwwroot\\uploads\\slider\\home-3-slider-2.jpg",
       "PackagePath": "staticwebassets\\uploads\\slider\\home-3-slider-2.jpg"
     },

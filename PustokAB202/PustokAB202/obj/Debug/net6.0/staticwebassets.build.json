@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "kMMNxP22yaxpuDlrT/wuYu2JEAQ0miQQxz6dJxDNWeU=",
+  "Hash": "uZi5qQCkp8tXuvo79S+4no76hAfDCLn/vopYpvL4pbI=",
   "Source": "PustokAB202",
   "BasePath": "_content/PustokAB202",
   "Mode": "Default",
@@ -3262,6 +3262,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\manage\\vendors\\mdi\\fonts\\materialdesignicons-webfont.woff2"
+    },
+    {
+      "Identity": "C:\\Users\\lenovo\\OneDrive\\Masaüstü\\AB202\\PustokAB202\\PustokAB202\\wwwroot\\uploads\\slider\\7a64358e-0f6c-4e96-8bec-7453864dc42c_home-4-slider-2.jpg",
+      "SourceId": "PustokAB202",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\lenovo\\OneDrive\\Masaüstü\\AB202\\PustokAB202\\PustokAB202\\wwwroot\\",
+      "BasePath": "_content/PustokAB202",
+      "RelativePath": "uploads/slider/7a64358e-0f6c-4e96-8bec-7453864dc42c_home-4-slider-2.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\slider\\7a64358e-0f6c-4e96-8bec-7453864dc42c_home-4-slider-2.jpg"
     },
     {
       "Identity": "C:\\Users\\lenovo\\OneDrive\\Masaüstü\\AB202\\PustokAB202\\PustokAB202\\wwwroot\\uploads\\slider\\home-3-slider-2.jpg",

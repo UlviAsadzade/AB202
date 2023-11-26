@@ -1,0 +1,19 @@
+﻿@model Book
+
+<div class="row">
+	<div class="col-8">
+		<ul>
+			<li>
+				<img style="width:110px;height:160px; border-radius:0;" src="~/assets/image/products/@Model.BookImages.FirstOrDefault(x=>x.IsPrimary==true)?.Image" alt="">
+			</li>
+			<li>@Model.Name</li>
+			<li>@Model.Author.Fullname</li>
+			<li>@Model.Genre.Name</li>
+			<li>@Model.Desc</li>
+			<li>@Model.CostPrice</li>
+			<li>@Model.SalePrice</li>
+			<li>@Model.Discount</li>
+			<li>@Model.Page</li>
+		</ul>
+	</div>
+</div>
