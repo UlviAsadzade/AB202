@@ -1,0 +1,69 @@
+﻿@model BookUpdateVM
+
+<div class="row">
+    <div class="col-12 grid-margin stretch-card">
+        <div class="card">
+            <div class="card-body">
+                <h4 class="card-title">Create Author</h4>
+
+                <form class="forms-sample" method="post" enctype="multipart/form-data">
+                    <div class="form-group">
+                        <label asp-for="Name"></label>
+                        <input asp-for="Name" class="form-control" placeholder="Name">
+                        <span asp-validation-for="Name" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="Page"></label>
+                        <input asp-for="Page" class="form-control" placeholder="Page">
+                        <span asp-validation-for="Page" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="Desc"></label>
+                        <input asp-for="Desc" class="form-control" placeholder="Desc">
+                        <span asp-validation-for="Desc" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="CostPrice"></label>
+                        <input asp-for="CostPrice" class="form-control" placeholder="CostPrice">
+                        <span asp-validation-for="CostPrice" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="SalePrice"></label>
+                        <input asp-for="SalePrice" class="form-control" placeholder="SalePrice">
+                        <span asp-validation-for="SalePrice" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="Discount"></label>
+                        <input asp-for="Discount" class="form-control" placeholder="Discount">
+                        <span asp-validation-for="Discount" class="text-danger"></span>
+                    </div>
+
+                    <div class="form-group">
+                        <label asp-for="IsAvailable"></label>
+                        <input asp-for="IsAvailable" class="form-control" placeholder="IsAvailable">
+                        <span asp-validation-for="IsAvailable" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="AuthorId"></label>
+                        <select asp-for="AuthorId" class="form-control" placeholder="Author" asp-items="new SelectList(Model.Authors,nameof(Author.Id),nameof(Author.Fullname))">
+                            
+                        </select>
+                        <span asp-validation-for="AuthorId" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="GenreId"></label>
+                        <select asp-for="GenreId" class="form-control" placeholder="Genre" asp-items="new SelectList(Model.Genres,nameof(Genre.Id),nameof(Genre.Name))">
+                            
+
+                        </select>
+                        <span asp-validation-for="GenreId" class="text-danger"></span>
+                    </div>
+
+
+                    <button type="submit" class="btn btn-primary mr-2">Submit</button>
+                    <a asp-action="index" class="btn btn-light">Cancel</a>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
