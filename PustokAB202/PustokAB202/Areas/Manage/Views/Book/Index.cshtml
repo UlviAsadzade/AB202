@@ -28,12 +28,15 @@
                                     Genre Name
                                 </th>
                                 <th>
+                                    Tag Name
+                                </th>
+                                <th>
                                     Settings
                                 </th>
                             </tr>
                         </thead>
                         <tbody>
-                            @foreach (var item in Model)
+                            @foreach (var book in Model)
                             {
                                 count++;
                                 <tr>
@@ -41,29 +44,35 @@
                                         @count
                                     </td>
                                     <td>
-                                        <img style="width:110px;height:160px; border-radius:0;" src="~/assets/image/products/@item.BookImages.FirstOrDefault(x=>x.IsPrimary==true)?.Image" alt="">
+                                        <img style="width:110px;height:160px; border-radius:0;" src="~/assets/image/products/@book.BookImages.FirstOrDefault(x=>x.IsPrimary==true)?.Image" alt="">
                                     </td>
                                     <td>
-                                        @item.Name
+                                        @book.Name
                                     </td>
                                     <td>
-                                        @item.Author.Fullname
+                                        @book.Author.Fullname
                                     </td>
                                     <td>
-                                        @item.Genre.Name
+                                        @book.Genre.Name
                                     </td>
                                     <td>
-                                        <a asp-action="update" asp-route-id="@item.Id">
+                                        @foreach (var item in book.BookTags)
+                                        {
+                                            <p>@item.Tag.Name</p>
+                                        }
+                                    </td>
+                                    <td>
+                                        <a asp-action="update" asp-route-id="@book.Id">
                                             <button type="button" class="btn btn-warning btn-rounded btn-fw">
                                                 <i class="mdi mdi-pencil"></i>
                                             </button>
                                         </a>
-                                        <a asp-action="delete" asp-route-id="@item.Id">
+                                        <a asp-action="delete" asp-route-id="@book.Id">
                                             <button type="button" class="btn btn-danger btn-rounded btn-fw">
                                                 <i class="mdi mdi-delete"></i>
                                             </button>
                                         </a>
-                                            <a asp-action="detail" asp-route-id="@item.Id">
+                                        <a asp-action="detail" asp-route-id="@book.Id">
                                             <button type="button" class="btn btn-danger btn-rounded btn-fw">
                                                 <i class="mdi mdi-open-in-new"></i>
                                                 </button>

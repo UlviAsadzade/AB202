@@ -25,6 +25,7 @@ namespace PustokAB202.Areas.Manage.Controllers
                 .Include(x => x.Author)
                 .Include(x => x.Genre)
                 .Include(x => x.BookImages)
+                .Include(x=>x.BookTags).ThenInclude(x=>x.Tag)
                 .ToListAsync();
 
             return View(Books);
@@ -38,6 +39,7 @@ namespace PustokAB202.Areas.Manage.Controllers
 
             bookCreateVM.Authors = await _context.Authors.ToListAsync();
             bookCreateVM.Genres = await _context.Genres.ToListAsync();
+            bookCreateVM.Tags = await _context.Tags.ToListAsync();
 
             return View(bookCreateVM);
 
@@ -50,6 +52,8 @@ namespace PustokAB202.Areas.Manage.Controllers
             {
                 bookCreateVM.Authors = await _context.Authors.ToListAsync();
                 bookCreateVM.Genres = await _context.Genres.ToListAsync();
+                bookCreateVM.Tags = await _context.Tags.ToListAsync();
+
                 return View(bookCreateVM);
             }
             if (bookCreateVM.AuthorId == 0)
@@ -57,6 +61,8 @@ namespace PustokAB202.Areas.Manage.Controllers
                 ModelState.AddModelError("AuthorId", "You must choose Author");
                 bookCreateVM.Authors = await _context.Authors.ToListAsync();
                 bookCreateVM.Genres = await _context.Genres.ToListAsync();
+                bookCreateVM.Tags = await _context.Tags.ToListAsync();
+
                 return View(bookCreateVM);
             }
 
@@ -65,6 +71,8 @@ namespace PustokAB202.Areas.Manage.Controllers
                 ModelState.AddModelError("GenreId", "You must choose Genre");
                 bookCreateVM.Authors = await _context.Authors.ToListAsync();
                 bookCreateVM.Genres = await _context.Genres.ToListAsync();
+                bookCreateVM.Tags = await _context.Tags.ToListAsync();
+
                 return View(bookCreateVM);
             }
 
@@ -73,6 +81,8 @@ namespace PustokAB202.Areas.Manage.Controllers
                 ModelState.AddModelError("AuthorId", "This Author is not exist");
                 bookCreateVM.Authors = await _context.Authors.ToListAsync();
                 bookCreateVM.Genres = await _context.Genres.ToListAsync();
+                bookCreateVM.Tags = await _context.Tags.ToListAsync();
+
                 return View(bookCreateVM);
             }
 
@@ -81,6 +91,8 @@ namespace PustokAB202.Areas.Manage.Controllers
                 ModelState.AddModelError("GenreId", "This Genre is not exist");
                 bookCreateVM.Authors = await _context.Authors.ToListAsync();
                 bookCreateVM.Genres = await _context.Genres.ToListAsync();
+                bookCreateVM.Tags = await _context.Tags.ToListAsync();
+
                 return View(bookCreateVM);
             }
 
@@ -97,8 +109,32 @@ namespace PustokAB202.Areas.Manage.Controllers
                 Discount = bookCreateVM.Discount,
                 Desc = bookCreateVM.Desc,
                 IsDeleted = false,
-                IsAvailable = true
+                IsAvailable = true,
+                BookTags = new List<BookTag>()
             };
+
+            if(bookCreateVM.TagIds is not null)
+            {
+                foreach (var item in bookCreateVM.TagIds)
+                {
+                    if (!await _context.Tags.AnyAsync(x => x.Id == item))
+                    {
+                        ModelState.AddModelError("TagIds", "This tag is not exist");
+                        bookCreateVM.Authors = await _context.Authors.ToListAsync();
+                        bookCreateVM.Genres = await _context.Genres.ToListAsync();
+                        bookCreateVM.Tags = await _context.Tags.ToListAsync();
+
+                        return View(bookCreateVM);
+                    }
+                }
+
+                foreach (var item in bookCreateVM.TagIds)
+                {
+                    book.BookTags.Add(new BookTag { TagId = item });
+                }
+            }
+
+
 
             await _context.Books.AddAsync(book);
             await _context.SaveChangesAsync();
@@ -110,7 +146,9 @@ namespace PustokAB202.Areas.Manage.Controllers
 
         public async Task<IActionResult> Update(int id)
         {
-            Book book = await _context.Books.FirstOrDefaultAsync(x=>x.Id == id);
+            Book book = await _context.Books
+                .Include(x=>x.BookTags)
+                .FirstOrDefaultAsync(x=>x.Id == id);
 
             if (book == null) return NotFound();
 
@@ -127,6 +165,8 @@ namespace PustokAB202.Areas.Manage.Controllers
                 IsAvailable = book.IsAvailable,
                 Authors = await _context.Authors.ToListAsync(),
                 Genres = await _context.Genres.ToListAsync(),
+                Tags = await _context.Tags.ToListAsync(),
+                TagIds = book.BookTags.Select(x=>x.TagId).ToList()
 
             };
 
@@ -140,10 +180,13 @@ namespace PustokAB202.Areas.Manage.Controllers
             {
                 updateVM.Authors = await _context.Authors.ToListAsync();
                 updateVM.Genres = await _context.Genres.ToListAsync();
+                updateVM.Tags = await _context.Tags.ToListAsync();
                 return View(updateVM);
             }
 
-            Book exist = await _context.Books.FirstOrDefaultAsync(x => x.Id == id);
+            Book exist = await _context.Books
+                .Include(x=>x.BookTags).ThenInclude(x=>x.Tag)
+                .FirstOrDefaultAsync(x => x.Id == id);
 
             if (exist == null) return NotFound();
 
@@ -153,6 +196,8 @@ namespace PustokAB202.Areas.Manage.Controllers
                 ModelState.AddModelError("AuthorId", "This Author is not exist");
                 updateVM.Authors = await _context.Authors.ToListAsync();
                 updateVM.Genres = await _context.Genres.ToListAsync();
+                updateVM.Tags = await _context.Tags.ToListAsync();
+
                 return View(updateVM);
             }
 
@@ -161,7 +206,27 @@ namespace PustokAB202.Areas.Manage.Controllers
                 ModelState.AddModelError("GenreId", "This Genre is not exist");
                 updateVM.Authors = await _context.Authors.ToListAsync();
                 updateVM.Genres = await _context.Genres.ToListAsync();
+                updateVM.Tags = await _context.Tags.ToListAsync();
+
                 return View(updateVM);
+            }
+
+            if (updateVM.TagIds is not null)
+            {
+                exist.BookTags.RemoveAll(bt => !updateVM.TagIds.Exists(x => x == bt.TagId));
+
+                var newList = updateVM.TagIds.Where(ti => !exist.BookTags.Any(x => x.TagId == ti)).ToList();
+
+                foreach (var item in newList)
+                {
+                    exist.BookTags.Add(new BookTag { TagId = item });
+                    
+                }
+                
+            }
+            else
+            {
+                exist.BookTags = new List<BookTag>();
             }
 
             exist.Name = updateVM.Name;
@@ -173,6 +238,7 @@ namespace PustokAB202.Areas.Manage.Controllers
             exist.Page= updateVM.Page;
             exist.Desc= updateVM.Desc;
             exist.IsAvailable= updateVM.IsAvailable;
+
 
             await _context.SaveChangesAsync();
 

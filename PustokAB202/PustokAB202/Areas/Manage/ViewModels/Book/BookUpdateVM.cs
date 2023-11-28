@@ -24,8 +24,12 @@ namespace PustokAB202.Areas.Manage.ViewModels
 
 
         public int GenreId { get; set; }
+        public List<int>? TagIds { get; set; }
+
 
         public List<Author>? Authors { get; set; }
         public List<Genre>? Genres { get; set; }
+        public List<Tag>? Tags { get; set; }
+
     }
 }
