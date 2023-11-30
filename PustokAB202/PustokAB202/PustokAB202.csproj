@@ -17,6 +17,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Folder Include="wwwroot\uploads\book\" />
     <Folder Include="wwwroot\uploads\slider\" />
   </ItemGroup>
 

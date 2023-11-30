@@ -8,6 +8,22 @@
 
                 <form class="forms-sample" method="post" enctype="multipart/form-data">
                     <div class="form-group">
+                        <label asp-for="MainPhoto"></label>
+                        <input asp-for="MainPhoto" class="form-control" placeholder="MainPhoto">
+                        <span asp-validation-for="MainPhoto" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="HoverPhoto"></label>
+                        <input asp-for="HoverPhoto" class="form-control" placeholder="HoverPhoto">
+                        <span asp-validation-for="HoverPhoto" class="text-danger"></span>
+                    </div>
+
+                    <div class="form-group">
+                        <label asp-for="Photos"></label>
+                        <input asp-for="Photos" class="form-control" placeholder="Photos">
+                        <span asp-validation-for="Photos" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
                         <label asp-for="Name"></label>
                         <input asp-for="Name" class="form-control" placeholder="Name">
                         <span asp-validation-for="Name" class="text-danger"></span>
