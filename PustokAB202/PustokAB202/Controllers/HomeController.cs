@@ -17,22 +17,27 @@ namespace PustokAB202.Controllers
         }
         
 
-        public IActionResult Index()
+        public async Task<IActionResult> Index()
         {
-            List<Slider> Sliders = _context.Sliders.OrderBy(x=>x.Order).ToList();
-            List<Feature> Features = _context.Features.ToList();
-            List<Book> Books = _context.Books
+            List<Slider> Sliders = await _context.Sliders.OrderBy(x=>x.Order).ToListAsync();
+            List<Feature> Features = await _context.Features.ToListAsync();
+
+            List<Book> books =await _context.Books
+                .Where(x=>x.IsDeleted==false)
                 .Include(x=>x.Author)
                 .Include(x=>x.Genre)
                 .Include(x=>x.BookImages)
-                .ToList();
+                .ToListAsync();
 
 			HomeVM homeVM = new HomeVM
             {
                 Sliders = Sliders,
                 Features = Features,
-                Books = Books,
-			};
+                Books = books,
+                DiscountBooks = books.Where(x=>x.Discount>0).Take(5).ToList(),
+                NewBooks = books.OrderByDescending(x=>x.Id).Take(5).ToList(),
+                ExpensiveBooks = books.OrderByDescending(x=>x.SalePrice).Take(5).ToList(),
+            };
             return View(homeVM);
         }
 

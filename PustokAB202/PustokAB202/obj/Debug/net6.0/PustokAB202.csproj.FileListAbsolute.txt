@@ -265,3 +265,8 @@ C:\Users\lenovo\OneDrive\Masaüstü\AB202\PustokAB202\PustokAB202\bin\Debug\net6
 C:\Users\lenovo\OneDrive\Masaüstü\AB202\PustokAB202\PustokAB202\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
 C:\Users\lenovo\OneDrive\Masaüstü\AB202\PustokAB202\PustokAB202\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
 C:\Users\lenovo\OneDrive\Masaüstü\AB202\PustokAB202\PustokAB202\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\lenovo\OneDrive\Masaüstü\AB202\PustokAB202\PustokAB202\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\lenovo\OneDrive\Masaüstü\AB202\PustokAB202\PustokAB202\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Users\lenovo\OneDrive\Masaüstü\AB202\PustokAB202\PustokAB202\bin\Debug\net6.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\lenovo\OneDrive\Masaüstü\AB202\PustokAB202\PustokAB202\bin\Debug\net6.0\Microsoft.Extensions.Identity.Core.dll
+C:\Users\lenovo\OneDrive\Masaüstü\AB202\PustokAB202\PustokAB202\bin\Debug\net6.0\Microsoft.Extensions.Identity.Stores.dll
