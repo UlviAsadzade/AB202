@@ -12,5 +12,6 @@ namespace PustokAB202.Models
         public Gender Gender { get; set; }
 
         public List<BasketItem> BasketItems { get; set; }
+        public List<Order> Orders { get; set; }
     }
 }

@@ -24,7 +24,6 @@ namespace PustokAB202.Services
 
         public async Task<List<BookItemVM>> GetBasketAsync()
         {
-           string json =  _accessor.HttpContext.Request.Cookies["Books"];
 
             List<BookItemVM> basket = new List<BookItemVM>();
 
@@ -54,6 +53,8 @@ namespace PustokAB202.Services
             }
             else
             {
+                string json = _accessor.HttpContext.Request.Cookies["Books"];
+
                 if (json != null)
                 {
                     List<BookCookieVM> cookies = JsonConvert.DeserializeObject<List<BookCookieVM>>(json);
